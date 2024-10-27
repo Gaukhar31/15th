@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f0f2f5;
+    font-family: Arial, sans-serif;
+  }
+  .container {
+    background-color: #fff;
+    width: 360px;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    display: grid;
+    gap: 20px;
+    text-align: center;
+  }
+  .title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+  }
+  .profile {
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    gap: 10px;
+  }
+  .profile img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+  }
+  .profile .info {
+    text-align: left;
+  }
+  .profile .info h3 {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #333;
+  }
+  .profile .info p {
+    font-size: 0.9rem;
+    color: #666;
+  }
+  .group {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .password-field {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  .password-field img {
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+  }
+  .password-field input[type="password"] {
+    border: none;
+    outline: none;
+    flex-grow: 1;
+    font-size: 1rem;
+  }
+  .options {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 0.9rem;
+    color: #0073e6;
+  }
+  .options a {
+    color: #0073e6;
+    text-decoration: none;
+  }
+  .options a:hover {
+    text-decoration: underline;
+  }
+  .group button {
+    padding: 10px;
+    background-color: #0073e6;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  .group button:hover {
+    background-color: #005bb5;
+  }
